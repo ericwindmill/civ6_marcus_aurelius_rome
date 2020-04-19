@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!--LEADER-->
+		<Row Tag="LOC_LEADER_EBW_LEADER_CUSTOM_NAME" Language="en_US">
+			<Text>Marcus Aurelius</Text>
+		</Row>
+		
+		
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_EBW_LEADER_CUSTOM" Language="en_US">
+			<Text>Marcus Aurelius is known as the last of the good five kings. He is a practioner of Stoicism.</Text>
+		</Row>
+		
+		
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_TITLE" Language="en_US">
+			<Text>Marcus Aurelius</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_SUBTITLE" Language="en_US">
+			<Text>The Philosopher King</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_QUOTE" Language="en_US">
+			<Text>Quit wasting time asking what a good man should be. Be one.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>paragraphc 1 etc...</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>-</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>-</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>-</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>-</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EBW_LEADER_CUSTOM_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>-</Text>
+		</Row>
+		
+		
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Ah another person who's cities I can take!</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Do you want to come and visit my city?</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Let me come and inspect your city, I bet it's not Efficient...</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Let's compare Cities, I know that yours will be trash, but you can look at mine for help!</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>You alright mate?</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Thanks for the delegation.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Lol, I don't want your Delegation...</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>I have sent you a delegation of Worthingtons and Dominos pizza!</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>My Man!</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Lol that's a trash offer... </Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Open your borders... For Reasons...</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Yeah alright, we can be friends... For now...</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Lol I don't want to be friends with you... You're a noob...</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Hey, do you want to be friends? We can team up and wreck those other noobs!</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>My Man!</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>That's fine, it means I can just raze you instead...</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Join forces with me, and together we will win the game!</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>You are a pretty sound person. I like what you're up to!</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>You're a massive noob! Stop doing stupid stuff...</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>I see those troops on my borders... And I will farm them for EXP if your not careful!</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY}</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>HAHA! Do you know what? Good... Go ahead and casus beli me in 5 turns... I dare you!</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Watching you play this game is like watching a car crash in slow motion... You are inefficient, bad and just a massive noob... Go learn how to play CIV you complete wreck... (Denounces You)</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>YEAH BOI! Now we are talking... I have Nukes by the way...</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>I'm bored of you, time to get taken out the game you absolute pest!</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Meh, I was bored anyway...</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>NEVER!</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>Right, I'm getting loads of war weariness... So let's make peace then carry on later...</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>You cheated... It doesn't count... I bet you're playing on settler difficulty!</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_EBW_LEADER_CUSTOM_ANY" Language="en_US">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_EBW_LEADER_CUSTOM_ANY]</Text>
+		</Row>
+		
+
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Marcus Aurelius</Name>
+    <Guid>abaf3d01-2fa1-4b73-a1ce-438598f57d4c</Guid>
+    <ProjectGuid>36ffd4af-454f-48e0-882f-8fab802e82a5</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Description>This is a brief description of the mod.</Description>
+    <Authors>Eric Windmill</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>civ6_marcus_aurelius_rome</AssemblyName>
+    <RootNamespace>civ6_marcus_aurelius_rome</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="civ6_marcus_aurelius_rome.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs" />
+    <Folder Include="Core" />
+    <Folder Include="Core\Leader_Traits" />
+    <Folder Include="Core\Localizations" />
+    <Folder Include="Core\Unique_Buildings" />
+    <Folder Include="XLPs" />
+    <Folder Include="Textures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Icons_Def.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader_Information.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader_Traits\Leader_Unique_Trait_1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Leader_Traits\Leader_Unique_Trait_2.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Localizations\Leader_Localisation.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Localizations\Trait_Localisation.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Main_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Player_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Unique_Buildings\Unique_Building_1.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_LEADER_CUSTOM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_LEADER_CUSTOM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_CUSTOM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_CUSTOM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_CUSTOM_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_LEADER_CUSTOM_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_LEADER_CUSTOM_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_LEADER_CUSTOM_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_LEADER_CUSTOM_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderBackgrounds.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Leader_LEADER_CUSTOM.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

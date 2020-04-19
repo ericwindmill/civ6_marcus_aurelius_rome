@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!--Leader Icons-->
+
+		<Row Name="ICON_ATLAS_LEADER_CUSTOM" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CUSTOM_32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CUSTOM" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CUSTOM_45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CUSTOM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CUSTOM_50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CUSTOM" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CUSTOM_55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CUSTOM" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CUSTOM_64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CUSTOM" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CUSTOM_80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_CUSTOM" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CUSTOM_256.dds"/>
+
+		<!--CIV Icons-->
+
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_32.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_45.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_50.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_55.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_64.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_80.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_256.dds"/>
+
+
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!--Leader Icons-->
+		<Row Name="ICON_LEADER_JRA_LEADER_CUSTOM" Atlas="ICON_ATLAS_LEADER_CUSTOM" Index="0"/>
+
+		<!--Civilization Icons-->
+		<Row Name="ICON_CIVILIZATION_JRA_CIV_CUSTOM" Atlas="ICON_ATLAS_CIV_CUSTOM" Index="0"/>
+
+
+		<!--Building Icons-->
+		<Row Name="ICON_BUILDING_JRA_CUSTOM" Atlas="ICON_ATLAS_CIVICS" Index="29"/>
+
+	</IconDefinitions>
+</GameData>

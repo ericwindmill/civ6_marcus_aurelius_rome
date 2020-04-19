@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Trait_Localisation -->
+<!-- Author: eric -->
+<!-- DateCreated: 4/19/2020 12:36:48 PM -->
+<GameData>
+	<LocalizedText>	
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE_NAME" Language="en_US">
+			<Text>The Last Good King</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE_DESCRIPTION" Language="en_US">
+			<Text>Treat your people well and they will treat you well. Cities are always loyal, and get +5 ameneities.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_TRAIT_LEADER_EBW_CUSTOM_TRAIT_TWO_NAME" Language="en_US">
+			<Text>Stoicism</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_EBW_CUSTOM_TRAIT_TWO_DESCRIPTION" Language="en_US">
+			<Text>Stoic practioners due their duty with pride. Units recieve reduced war weariness. Bonus resources yield +1 [Icon_Gold] and +1 [Icon_Production].</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_EBW_CUSTOM_ONE_NAME" Language="en_US">
+			<Text>School of Philosophy</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_EBW_CUSTOM_ONE_DESCRIPTION" Language="en_US">
+			<Text>Replaces Holy Site. Yields +1 [Icon_Culture] and +1 [Icon_Science].</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
