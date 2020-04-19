@@ -10,10 +10,9 @@
 -- Players
 -------------------------------------	
 INSERT INTO Players	(
-		Domain
-		CivilizationType,						
+		Domain,
 		Portrait,
-		PortraitBackground,	
+		PortraitBackground,
 		LeaderType,
 		LeaderName,
 		LeaderIcon,
@@ -28,23 +27,21 @@ INSERT INTO Players	(
 		CivilizationAbilityIcon
 		)
 VALUES	(
-			'Players:Expansion2_Players'
-			'CIVILIZATION_EBW_CIV_CUSTOM',			
-			'LEADER_LEADER_CUSTOM_NEUTRAL.dds',		
-			'LEADER_JOHN_CURTIN_BACKGROUND',		
-			'LEADER_EBW_LEADER_CUSTOM',		
-			'LOC_LEADER_EBW_LEADER_CUSTOM_NAME',		
-			'ICON_LEADER_EBW_LEADER_CUSTOM',		
-			'LOC_TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE_NAME',	
-			'LOC_TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE_DESCRIPTION',		
-			'ICON_LEADER_EBW_LEADER_CUSTOM',		
+		    'Players:Expansion2_Players'            -- Domain
+			'LEADER_LEADER_CUSTOM_NEUTRAL.dds',		-- Portrait
+			'LEADER_JOHN_CURTIN_BACKGROUND',		-- PortraitBackground
+			'LEADER_EBW_LEADER_CUSTOM',		        -- LeaderType
+			'LOC_LEADER_EBW_LEADER_CUSTOM_NAME',    -- LeaderName
+			'ICON_LEADER_EBW_LEADER_CUSTOM',		-- LeaderIcon
+			'LOC_TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE_NAME',	-- LeaderAbilityName
+			'LOC_TRAIT_LEADER_EBW_CUSTOM_TRAIT_ONE_DESCRIPTION', --LeaderAbilityDescription
+			'ICON_LEADER_EBW_LEADER_CUSTOM', --LeaderAbilityIcon
 			'CIVILIZATION_ROME', -- CivilizationType
 			'LOC_CIVILIZATION_ROME_NAME', -- CivilizationName
 			'ICON_CIVILIZATION_ROME', -- CivilizationIcon
 			'LOC_TRAIT_CIVILIZATION_ROME_UA_NAME', -- CivilizationAbilityName
 			'LOC_TRAIT_CIVILIZATION_ROME_DESCRIPTION', -- CivilizationAbilityDescription
-			'ICON_CIVILIZATION_ROME', -- CivilizationAbilityIcon
-
+			'ICON_CIVILIZATION_ROME' -- CivilizationAbilityIcon
 			);
 
 
